@@ -102,14 +102,16 @@ opacity: 0.3;
 border-radius: 0.8rem;
 height: 2rem;
 border: none;
-padding-bottom: 1rem;
+padding: 10px;
+color: #fa0909;
+font-weight: bolder;
 }
 .userInput:hover{
 background-color:transparent;
 border: 3px solid var(--grey2);
 }
 .userInformation{
-    padding: 1rem 0 0.5rem 1rem;
+padding: 1rem 0 0.5rem 1rem;
 }
 .textCheck{
 display: flex;
@@ -157,4 +159,17 @@ padding-top: 2rem;
 }
 .textForgot:hover{
 color: var(--app-bg);
+}
+.modalText{
+display:none;
+position: absolute;
+top: -4rem;
+left: -3rem;
+color: #fff;
+background-color: rgb(213, 0, 0,0.5);
+padding: 1rem;
+border-radius: 0 2rem 1rem;
+text-shadow: 3px 2px 2px #333;
+z-index: 999;
+transition: all 250ms ease-in-out;
 }
