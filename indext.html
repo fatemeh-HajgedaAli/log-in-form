@@ -19,9 +19,11 @@
 
 <div class="fillupPart">
     <label for="username" class="userInformation">USERNAME</label>
-    <input type="text" name="username" id="userName" class="userInput" maxlength="12">
+    <input type="text" name="username" id="userName" class="userInput" onKeydown="usernameValidation()" maxlength="12">
+    <span class="textUsername">Must Contain 12 letters.</span>
     <label for="password" class="userInformation">PassWord</label>
-    <input type="text" name="password" id="userPassword" class="userInput" maxlength="8">
+    <input type="text" name="password" id="userPassword" class="userInput" onKeydown="passwordValidation()" maxlength="8">
+    <span class="textPassword">Must Contain 8 Numbers.</span>
 </div>
 <div class="textCheck">
     <input type="checkbox" name="check" id="checkBtn">

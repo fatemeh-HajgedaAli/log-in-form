@@ -113,6 +113,12 @@ border: 3px solid var(--grey2);
 .userInformation{
 padding: 1rem 0 0.5rem 1rem;
 }
+.textUsername , .textPassword{
+    padding:1rem ;
+    color: #fa0909;
+    transition: all 250ms ease-in-out;
+    display: none;
+}
 .textCheck{
 display: flex;
 margin-top: -1rem;
