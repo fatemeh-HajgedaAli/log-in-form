@@ -9,7 +9,6 @@ function usernameValidation(){
     let userNameValue=userNameInput.value
 
  if(userNameValue.length<12){
-
      textUsername.style.display='inline'
  }else{
      textUsername.innerHTML="that's nice!" 
@@ -26,15 +25,13 @@ let passwordValue=passwordInput.value
 
  if(passwordValue.length<8){
 
-textPassword.style.display='inline'
+    textPassword.style.display='inline'
 
  }else{
-
 textPassword.innerHTML="that's true!" 
 textPassword.style.color='green' 
 textPassword.style.display='inline'  
- }
-
+}
  setTimeout(function(){
     textPassword.style.display='none' 
 },3000);
